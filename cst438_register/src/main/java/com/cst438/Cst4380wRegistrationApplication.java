@@ -33,6 +33,8 @@ public class Cst4380wRegistrationApplication  {
 	@ConditionalOnProperty(prefix="gradebook", name="service", havingValue = "default")
 	public GradebookService gradebookDefault() {
 		return new GradebookService();
+		
+		//Test
 	}
 
 }
